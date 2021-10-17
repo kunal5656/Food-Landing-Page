@@ -1,0 +1,381 @@
+.myheading{
+    font-weight: bolder;                /*Css made by Kunal Goyal for Inkoop test*/
+    font-size: 03vw;
+    margin-left: 20px;
+}
+.mytext{
+    margin-top: 02vw !important;
+    font-size: 14px;
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.mytext:hover{
+    font-size: 16px;
+    color:#ff4961;
+    transition: 0.3s ease;
+}
+.mytext:not(hover){
+    font-size: 14px;
+    color:#c7c7c7;
+    transition: 0.3s ease;
+}
+.mytext1{
+    margin-top: 03vw !important;
+    font-size: 14px;
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.strikeout{
+    color: #ff4961;
+
+}
+.mybutton{
+  color: #fff;
+  background-color: #ff4d5e;
+  border:0px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 2vh;
+  border-radius: 18px;
+  width: 120px;
+  height: 40px;
+  margin-left: 50px !important ;
+}
+.mybutton:hover{                        /* button hover effect using css transition*/
+    width: 125px;
+    height: 50px;
+    border-radius: 24px;
+    transition: 0.3s ease;
+}
+.mybutton:not(hover){
+    width: 105px;
+    height: 40px;
+    border-radius: 18px;
+    transition: 0.3s ease;
+}
+.mybutton2{
+    background-color: white;
+    color: #ff4d5e;
+    border:0px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 2vh;
+    border-radius: 18px;
+    width: 80px;
+    height: 40px;
+  }
+.mybutton2:hover{
+    background-color: white;
+    color: #ff4d5e;
+    border:0px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 2vh;
+    border-radius: 18px;
+    width: 80px;
+    height: 40px;
+}
+@keyframes move{
+    0%{
+        left:0px;
+    }
+    100%{
+        left:100px;
+    }
+}
+.bighead{
+    font-size: 06vw;
+    display: flex;
+    margin-left: 0.5vw;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 08vh;
+ 
+}
+.commoncontainer {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+  }
+@media (min-width: 576px) {
+.smallareacontainer {
+    flex: 0 0 auto;
+    width: 20%;
+
+  }
+}
+@media (min-width: 400px) {
+    .smallareacontainer2 {
+        flex: 0 0 auto;
+        width: 10vw;
+    
+      }
+    }
+@media (min-width: 768px) {
+.largeareacontainer {
+    flex: 0 0 auto;
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+    .largeareacontainer2 {
+        flex: 0 0 auto;
+        width: 80%;
+     
+      }
+    }
+.ptext{
+    margin-top: 10vh;
+    margin-right: 05vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+}
+.myhr{
+    background-color: #ff4961;
+    color: #ff4961;
+    border: #ff4961;
+    width: 80px;
+    height: 03px;
+    margin-right: 350px;
+}
+.ptext:hover~ .myhr{                        /* hover effect using css transition on red horizontal ruler below the text on the righthand side*/
+    width: 140px;
+    transition: 0.8s ease;
+}
+.ptext:not(:hover)~ .myhr{
+    width: 80px;
+    transition: 0.8s ease;
+}
+
+.smbutton:hover{                         
+    width:60px;
+    height: 40px;
+    transition: 0.5s ease;
+}
+.smbutton:not(hover){
+    width:50px;
+    height: 30px;
+    transition: 0.5s ease;
+}
+
+
+
+/*@media (max-width:10000px){               //sidebar moving effect using css transition and also prepared by me using Javascript jQuery 
+                                                //you can either use javascript jquery method or css effect made here
+.smbutton:focus~ .sidebar{
+    left:0px;
+    transition: 1s ease;
+}
+.smbutton:not(focus)~ .sidebar{
+    left: -270px;
+    transition: 1s ease;
+}
+}*/
+
+.smallarea1{
+    box-shadow: 0 10px 30px 03px #c7c7c7;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 14px;
+        padding: auto;
+        margin:10px;
+       
+      }
+
+
+.smallarea1-area{
+     flex: 1 1 auto;
+     
+}
+.smallarea2{
+    box-shadow: 0 10px 30px 03px #c7c7c7;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 14px;
+        padding: auto;
+        margin:10px;
+       
+      }
+
+
+.smallarea2-area{
+     flex: 1 1 auto;
+     
+}
+.smallarea3{
+    box-shadow: 0 10px 30px 03px #c7c7c7;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 14px;
+        padding: auto;
+        margin:10px;
+       
+      }
+
+
+.smallarea3-area{
+     flex: 1 1 auto;
+     
+}
+.smallarea4{
+    box-shadow: 0 10px 30px 03px #c7c7c7;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 14px;
+        padding: auto;
+        margin:10px;
+       
+      }
+
+
+.smallarea4-area{
+     flex: 1 1 auto;
+     
+}
+.smallarea1:hover{
+    bottom: 10px;
+    transition: 0.5s ease;
+}
+.smallarea1:not(hover){
+    bottom: 0px;
+    transition: 0.5s ease;
+}
+
+.smallarea2:hover{
+    bottom: 10px;
+    transition: 0.5s ease;
+}
+.smallarea2:not(hover){
+    bottom: 0px;
+    transition: 0.5s ease;
+}
+
+.smallarea3:hover{
+    bottom: 10px;
+    transition: 0.5s ease;
+}
+.smallarea3:not(hover){
+    bottom: 0px;
+    transition: 0.5s ease;
+}
+
+.smallarea4:hover{
+    bottom: 10px;
+    transition: 0.5s ease;
+}
+.smallarea4:not(hover){
+    bottom: 0px;
+    transition: 0.5s ease;
+}
+.myimg{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 500rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    height: 100%;
+    width: 100%;
+}
+.myimgtext{
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+}
+.mr{
+
+    margin-left: 04vw !important;
+}
+@media only screen and (max-width:500px) {
+   *{
+      width: 100%;
+    }
+  }
+.container{
+    width: 90%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.smbutton{
+    background-color: #ff4961;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 04px;
+    font-size: medium;
+    z-index: 111;
+    position: relative;
+    top:1px;
+    width: 50px;
+    height: 30px;
+}
+.sidebar{
+    position: fixed;
+    background: #ffffff;
+    height: 100%;
+    width: 270px;
+    overflow: hidden;
+    left: 0px;
+    z-index: 1111111;
+    top:50px;
+  }
+
+
+
+
+
+
+
+
+ 
